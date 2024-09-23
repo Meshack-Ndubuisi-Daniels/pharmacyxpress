@@ -1,0 +1,318 @@
+.background-image
+{position: fixed; top:0;left:0; height: 100%; width: 100%; z-index: 1; object-fit:cover; opacity: 0.6}
+
+.background-image-about, .background-image-contact
+{position: fixed; top:0;left:0; height: 100%; width: 100%; z-index: 1; object-fit:cover;}
+
+button
+{cursor: pointer;}
+
+.logo
+{position: absolute; z-index: 2; top: 1rem; left: 1rem; height: 3vw;}
+
+@media screen and  (max-width:950px) {.logo{width: 20vw; height: 4vw}}
+@media screen and  (max-width:430px) {.logo{width: 31vw; height: 7vw}}
+@media screen and  (max-width:430px) {.mid{left:-5rem;}}
+@media screen and  (min-width:1450px) {.good, .pharmacist-always, .open, .improved, .best-care{font-size: 1.8rem;}}
+@media screen and (min-width: 1450px) {.footer-lines{margin-inline: 2rem;}}
+
+
+
+.header-div
+{display: flex;
+width: 100%;
+justify-content: center;}
+
+
+.header
+{display: flex;
+position: fixed;
+top: 0;
+padding: 0.5rem;
+z-index: 3;
+font-family: "SUSE", sans-serif;
+font-size: 1rem;
+background-color: #0096c7;
+align-items: center;
+border-bottom-left-radius: 3rem;
+border-bottom-right-radius: 3rem;}
+
+.about-header
+{background-color: #0096c7;}
+
+.header-js
+{font-family: "SUSE", sans-serif;
+position: fixed;
+padding-inline-start: 0.5rem;
+left: 0;
+z-index: 4;
+display: flex;
+flex-direction: column;
+font-size: 2vw;
+width: 8rem;
+background-color: #0096c7;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+height: 35vw;
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0, 0.4);}
+
+@media screen and (max-width: 530px) {.header-js{height:40vw}}
+
+.home-js, .about-js, .services-js, .contact-and-js, .request-js
+{color:#ffffff;
+padding-block: 0.5rem;
+font-family: "SUSE", sans-serif;
+font-size: 2vw;
+background: none;
+border: none;
+text-align: left;
+text-decoration: none;}
+
+.home-js:hover, .about-js:hover, .services-js:hover, .contact-and-js:hover, .request-js:hover
+{color: #000000;
+font-weight:800}
+
+/*@media screen and (max-width: 411px) {.header-js{padding-block-end:2rem}}
+@media screen and (max-width: 345px) {.header-js{padding-block-end:3rem}}
+/*@media screen and (max-width: 950px) {.header-js{padding-block-end:2rem}}*/
+
+.header-lines
+{border: solid #ffffff 1px; margin-inline: 2vw; height: 1rem}
+
+.header-lines-js
+{border: solid #ffffff 0.1px;
+width: 40px; color: #ffffff;
+margin-block: 2vw;}
+
+.home, .about, .services, .contact-and, .request
+{text-align: center;
+color:#ffffff; width: 5rem;
+background-color: inherit;
+border: none;
+font-family: "SUSE", sans-serif;
+font-size: 1rem;}
+
+.request
+{margin-inline-end: 2vw;}
+  
+@media screen and (max-width:1074px) {.header{opacity: 0;}}
+
+
+.mid-and-footer
+{display: flex;}
+
+@media screen and (min-width:1075px) {.nav-bar{opacity:0;}}
+
+.hamburger-menu
+{position:relative;
+width: 5vw;
+z-index: 3;}
+
+.hamburger-menu:active
+{background-color: rgb(255, 255, 255);}
+
+.menu-button
+{margin-block-start: 4rem;
+border: none;
+background: inherit;}
+
+
+.hidden-menu
+{position: relative;
+z-index: 4;
+font-size: 20px;}
+
+.mid
+{top: 17rem;
+left: 10rem;
+font-family: "SUSE", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+position:absolute;
+z-index: 3;}
+
+@media screen and (max-width:1074px) {.mid{margin-inline-start: 6rem;margin-block-start: 8rem;}}
+@media screen and (max-width:430px) {.mid{margin-block-start: 10rem;margin-inline-start: -5rem;}}
+@media screen and (max-width:375px) {.mid{margin-block-start: -1rem;margin-inline-start: -7rem;}}
+@media screen and (max-width:414px) {.mid{margin-block-start: 8rem;margin-inline-start: -5rem;}}
+
+
+
+.medicines
+{font-size: 3vw;
+color: #0096c7;
+background-color: #ffffff;
+padding-inline: 2rem;
+padding-block: 2rem;
+width: 30vw;
+transform: perspective(25px) rotateY(1deg);}
+
+@media screen and (max-width:430px) {.medicines{font-size:6vw; width: 60vw;}}
+
+.we-are
+{font-size: 2vw;
+color: #343a40;
+margin-block-start: 2rem;
+margin-inline-start: -2vw;
+width: 42vw;
+text-align: justify;
+font-weight:700}
+
+@media screen and (max-width:430px) {.we-are{font-size:4vw; width: 75vw;}}
+@media screen and (max-width:360px) {.we-are{margin-block-start: 0.5rem;}}
+
+.special-medicines
+{color:#4361ee}
+
+.trust
+{color: #343a40}
+
+.contact-us-button
+{font-family: "SUSE", sans-serif;
+font-size: 1rem;
+margin-block-start: 1rem;
+margin-inline-start: -2vw;
+background-color: #0096c7;
+color:#ffffff;
+border:none;
+padding: 1rem;
+border-radius: 0.3rem}
+
+.contact-us-button:hover
+{background-color: #ffffff;
+color:#0096c7;}
+
+@media screen and (max-width:375px) {.contact-us-button{margin-block-start: 0.3rem; padding: 0.7rem;}}
+
+.footer-div
+{display: flex;
+width: 100%;
+justify-content: center;}
+
+.footer
+{display: flex;
+position: fixed;
+bottom: 0;
+z-index:3;
+background-color: #ffffff;
+padding: 2rem;
+font-family: "SUSE", sans-serif;
+font-size: 2vw;
+border-top-left-radius: 10rem;
+border-top-right-radius: 10rem;}
+
+.good, .pharmacist-always, .open, .improved, .best-care
+{text-align: center;
+color:#0096c7}
+
+.footer-lines
+{border: solid #0096c7 1px;}
+
+
+.oo 
+{display: flex;
+width: 100%;
+position: absolute;
+z-index: 3;
+font-family: "SUSE", sans-serif;
+justify-content: center;
+align-items: center;}
+
+.our-services-div
+{margin-block-start: 3rem;
+width: 70vw;
+background-color: #0096c7;
+color:#ffffff;
+text-align: justify;
+padding: 2rem;
+border-radius: 30px;
+box-shadow: 1px 1px 8px #024e68 ;}
+
+@media screen and (max-width: 430px) {.our-services-div{margin-block-start: 15rem; font-size: 3.5vw}}
+@media screen and (max-width: 1075px){.our-services-div{width: 50vw;}}
+
+.est
+{z-index: 3;
+font-family: "SUSE", sans-serif;
+left: 2vw;
+font-size: 1rem;
+position: fixed;
+bottom: 0;
+width: 30vw;
+text-align: center;
+color: #74b5cb;}
+
+.about-image
+{position: absolute;
+z-index: 2;
+margin-block-start: 10rem;
+margin-inline-start: 2rem;
+width: 100vw;
+opacity: 0.2;
+position: fixed;
+bottom: 5px;}
+
+@media screen and (max-width: 430px) {.about-image{margin-block-start: 28rem;
+margin-inline-start: 0.5px;}}
+
+/*@media screen and (min-width: 1025px) {.about-image{margin-block-start:1rem; width: 70vw; margin-inline-start: 10rem;}}*/
+
+
+
+.background-image-contact
+{filter: blur(8px);
+-webkit-filter: blur(4px);}
+
+.mid-section-contacts
+{position: absolute;
+z-index:2;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 85%;
+justify-content: space-around;
+font-family: "SUSE", sans-serif;
+color:#0096c7;
+font-size: 1.5rem;
+font-weight:600;
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0, 0.4); 
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+padding: 20px;
+text-align: center;}
+
+@media screen and (max-width: 430px) {.mid-section-contacts{font-size: 3.5vw}}
+
+@media screen and (min-width: 425px) {.mid-section-contacts{top: 60%}}
+
+@media screen and (min-width: 800px) {.mid-section-contacts{top: 85%}}
+
+@media screen and (max-width: 430px) {.phone-logo, .location-logo{width: 2px}}
+
+@media screen and (min-width: 1025px) {.mid-section-contacts{top: 50%}}
+
+.location-logo, .phone-logo
+{width: 4rem}
+
+@media screen and (max-width: 430px) {.phone-logo, .location-logo{width: 2rem}}
+
+.vert-line
+{border: 1px solid;
+height: 10rem}
+
+.left-mid-section, .right-mid-section
+{display: flex;
+justify-content: center;
+align-items: center;}
+
+.about:focus, .home:focus, .contact-and:focus, .request:focus
+{color: black;
+font-weight: 800;}
